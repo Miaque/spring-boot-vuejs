@@ -1,7 +1,7 @@
-package com.demo.springbootvuejs.repository;
+package com.demo.repository;
 
 
-import com.demo.springbootvuejs.domain.User;
+import com.demo.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 

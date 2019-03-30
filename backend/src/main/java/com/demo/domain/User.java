@@ -1,4 +1,4 @@
-package com.demo.springbootvuejs.domain;
+package com.demo.domain;
 
 import javax.persistence.*;
 

@@ -1,7 +1,7 @@
-package com.demo.springbootvuejs.controller;
+package com.demo.controller;
 
-import com.demo.springbootvuejs.repository.UserRepository;
-import com.demo.springbootvuejs.domain.User;
+import com.demo.repository.UserRepository;
+import com.demo.domain.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

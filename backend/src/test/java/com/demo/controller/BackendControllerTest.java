@@ -1,7 +1,7 @@
-package com.demo.springbootvuejs.controller;
+package com.demo.controller;
 
-import com.demo.springbootvuejs.SpringBootVuejsApplication;
-import com.demo.springbootvuejs.domain.User;
+import com.demo.SpringBootVuejsApplication;
+import com.demo.domain.User;
 import io.restassured.RestAssured;
 import org.apache.http.HttpStatus;
 import org.junit.Before;

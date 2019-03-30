@@ -1,6 +1,6 @@
-package com.demo.springbootvuejs.repository;
+package com.demo.repository;
 
-import com.demo.springbootvuejs.domain.User;
+import com.demo.domain.User;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
