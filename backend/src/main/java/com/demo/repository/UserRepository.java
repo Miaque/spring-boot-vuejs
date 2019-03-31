@@ -1,16 +1,12 @@
 package com.demo.repository;
 
+import com.demo.entity.User;
 
-import com.demo.domain.User;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
+/**
+ * Created by stephan on 20.03.16.
+ */
+public interface UserRepository {
 
-import java.util.List;
-
-public interface UserRepository extends CrudRepository<User, Long> {
-
-    List<User> findByLastName(@Param("lastname") String lastname);
-
-    List<User> findByFirstName(@Param("firstname") String firstname);
+    User findByUsername(String username);
 
 }
